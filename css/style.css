@@ -77,6 +77,16 @@ nav #princ_menu
 	padding: 0 0 0 35px;
 }
 
+nav #sec_menu
+{
+	background: #F1D2A5;
+	font-size: 0.9em;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 35px;
+}
+
+
 nav #princ_menu li
 {	
 	display: inline-block;
@@ -85,24 +95,60 @@ nav #princ_menu li
 	/*border: 1px solid blue;*/
 }
 
+nav #sec_menu li
+{
+	display: inline-block;
+	margin: 0 0.5em 0 0;
+	vertical-align: top;
+}
+
 nav #princ_menu li a
 {
 	color: #FAFAFA;
 	display: block;
 	text-decoration: none;
 	padding: 0.5em 0;
-
 }
 
+nav #sec_menu li a
+{
+	color: #FAFAFA;
+	display: block;
+	text-decoration: none;
+	padding: 0.5em 0;
+}
 
+#slide
+{
+	/* VALORES TEMPORALES? */
+	/*border:1px solid peru;*/
+	width: 100%
+}
 
+#contenido
+{
+	border: 1px solid black;
+	whith: 100%;
+}
 
+#contenido .item
+{
+ 	border: 1px solid red;
+	background: #FFFFFF;
+	margin: 0.5rem;
+	padding: 0.5rem;
+}
 
+#contenido .item .imagen_item
+{
+	/*border: 1px solid #000001;*/
+	padding: 1px;
+}
 
-
-
-
-
+#contenido .item .imagen_item img
+{
+	width: 100%;
+}
 
 
 
