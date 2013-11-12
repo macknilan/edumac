@@ -48,7 +48,7 @@ header h1
 }
 
 
-header #slide_promo
+/*header #slide_promo
 {
 	border: 1px solid black;
 	position: absolute;
@@ -61,7 +61,7 @@ header #slide_promo img
 {
 	float: left;
 	width: 70px;
-}
+}*/
 
 header #logo img
 {
@@ -77,6 +77,22 @@ nav #princ_menu
 	padding: 0 0 0 35px;
 }
 
+nav #princ_menu li
+{	
+	display: inline-block;
+	margin: 0 0.5em 0 0;
+	vertical-align: top;
+	/*border: 1px solid blue;*/
+}
+
+nav #princ_menu li a
+{
+	color: #FAFAFA;
+	display: block;
+	text-decoration: none;
+	padding: 0.5em 0;
+}
+
 nav #sec_menu
 {
 	background: #F1D2A5;
@@ -86,28 +102,11 @@ nav #sec_menu
 	padding: 0 0 0 35px;
 }
 
-
-nav #princ_menu li
-{	
-	display: inline-block;
-	margin: 0 0.5em 0 0;
-	vertical-align: top;
-	/*border: 1px solid blue;*/
-}
-
 nav #sec_menu li
 {
 	display: inline-block;
 	margin: 0 0.5em 0 0;
 	vertical-align: top;
-}
-
-nav #princ_menu li a
-{
-	color: #FAFAFA;
-	display: block;
-	text-decoration: none;
-	padding: 0.5em 0;
 }
 
 nav #sec_menu li a
