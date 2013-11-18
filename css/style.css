@@ -115,8 +115,8 @@ nav #sec_menu li a
 	display: block;
 	text-decoration: none;
 	padding: 0.5em 0;
-}
-*/
+}*/
+
 #slide
 {
 	/* VALORES TEMPORALES? */
@@ -124,30 +124,7 @@ nav #sec_menu li a
 	width: 100%
 }
 
-#contenido
-{
-	border: 1px solid black;
-	whith: 100%;
-}
 
-#contenido .item
-{
- 	border: 1px solid red;
-	background: #FFFFFF;
-	margin: 0.5rem;
-	padding: 0.5rem;
-}
-
-#contenido .item .imagen_item
-{
-	/*border: 1px solid #000001;*/
-	padding: 1px;
-}
-
-#contenido .item .imagen_item img
-{
-	width: 100%;
-}
 
 
 
