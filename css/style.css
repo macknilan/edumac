@@ -3,22 +3,36 @@
 * segundo color de texto para menu principal 434343
 * primer color de menu principal 878787
 *
-*
+* 434343
 */
 
 body
 {
-	background: #F2F2F5;
+	/*background: #F2F2F5;*/
+	background-image: url(../img/wood_bg.png);
 	color: #4c4c4c;
 	font-family: Arial;
 	font-size: 16px;
 	margin: 0;
 }
 
+footer
+{
+	/*border: 1px solid red;*/
+	color: #434343;
+}
+
+footer p
+{
+	text-align: center;
+	margin: 2rem auto;
+	width: 100%;
+}
+
 header
 {
-	background: #722C00;
-	color: white;
+	/*background: #722C00;*/
+	color: #333333;
 	margin: 0;
 	padding: 0.5em;
 }
@@ -93,6 +107,39 @@ nav #princ_menu li a
 	padding: 0.5em 0;
 }
 
+/*CODIGO SLIDE*/
+#slide #owl-demo .item img
+{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+/*CODIGO SLIDE*/
+
+
+#contenido .item
+{
+	background: #FFFFFF;
+}
+
+#contenido .item .imagen_item
+{
+	margin: 10px;
+}
+
+#contenido .item h2
+{
+	color: #03C0F4;
+	margin: 10px;
+}
+
+#contenido .item p
+{
+	/*border: 1px solid blue;*/
+	margin: 10px;
+	font-size: 15px;
+}
+
 /*nav #sec_menu
 {
 	background: #F1D2A5;
@@ -117,12 +164,7 @@ nav #sec_menu li a
 	padding: 0.5em 0;
 }*/
 
-#slide
-{
-	/* VALORES TEMPORALES? */
-	/*border:1px solid peru;*/
-	width: 100%
-}
+
 
 
 
