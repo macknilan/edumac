@@ -20,13 +20,28 @@ footer
 {
 	/*border: 1px solid red;*/
 	color: #434343;
+	padding: 1em 0;
+	position: relative;
+	top: 15px;
+	text-align: center;
+	width: 100%;
 }
 
-footer p
+footer ul
 {
-	text-align: center;
-	margin: 2rem auto;
-	width: 100%;
+	list-style: none;
+	/*text-align: center;*/
+	/*width: 100%;*/
+}
+
+footer ul li
+{
+	display: inline-block;
+}
+
+footer ul li a
+{
+ text-decoration: none;
 }
 
 header
@@ -35,47 +50,37 @@ header
 	color: #333333;
 	margin: 0;
 	padding: 0.5em;
+	text-align: left;
 }
 
-/*header:after
+header figure, header h1
 {
-	border: 1px solid #FFCC00;
-	clear: both;
-	content: "";
-	display: block;
-}*/
-
-header figure
-{
-	float: left;
+	display: inline-block;
+	vertical-align: top;
 }
 
 header h1
 {
-	display: block;
-	font-size: 20px;
+	border: 1px solid red;
+	font-size: 25px;
 	font-weight: normal;
-	margin: 1em 85px 1em 100px;
-	padding: 10px;
+	margin: 0.5em 0 0 1em;
 	text-align: center;
-	/*border: 1px solid #FFCC00;*/
+	width: 45%;
 }
 
 
-/*header #slide_promo
+header #slide_promo
 {
-	border: 1px solid black;
-	position: absolute;
-	top: 0;
-	right: 0;
-	margin: 0.5em 1em 0 0;
+	float:right;
+	margin: 0.2em 1em 0 0;
 }
 
 header #slide_promo img
 {
 	float: left;
 	width: 70px;
-}*/
+}
 
 header #logo img
 {
@@ -140,29 +145,7 @@ nav #princ_menu li a
 	font-size: 15px;
 }
 
-/*nav #sec_menu
-{
-	background: #F1D2A5;
-	font-size: 0.9em;
-	list-style: none;
-	margin: 0;
-	padding: 0 0 0 35px;
-}
 
-nav #sec_menu li
-{
-	display: inline-block;
-	margin: 0 0.5em 0 0;
-	vertical-align: top;
-}
-
-nav #sec_menu li a
-{
-	color: #FAFAFA;
-	display: block;
-	text-decoration: none;
-	padding: 0.5em 0;
-}*/
 
 
 
